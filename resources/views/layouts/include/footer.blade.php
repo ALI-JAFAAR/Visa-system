@@ -1,11 +1,10 @@
-      </div>
-      <!-- /.container-fluid -->
+      
 
       <!-- Sticky Footer -->
       <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright © Your Website 2019</span>
+            <span>Copyright © Uruk company 2020</span>
           </div>
         </div>
       </footer>
@@ -27,14 +26,14 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-  <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+  <script src="http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
 
   <!-- Custom scripts for all pages-->
   <script src="assets/js/sb-admin.min.js"></script>
   <script type="text/javascript">
     $(document).ready( function () {
-    $('#myTable').DataTable();
-} );
+      $('#myTable').DataTable();
+    } );
   </script>
 </body>
 

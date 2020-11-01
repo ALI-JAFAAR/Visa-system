@@ -1,35 +1,54 @@
 <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+      <li class="nav-item">
+        <a class="nav-link" href="/">
           <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span>
+          <span>لوحة التحكم</span>
         </a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Login Screens:</h6>
-          <a class="dropdown-item" href="login.html">Login</a>
-          <a class="dropdown-item" href="register.html">Register</a>
-          <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-          <div class="dropdown-divider"></div>
-          <h6 class="dropdown-header">Other Pages:</h6>
-          <a class="dropdown-item" href="404.html">404 Page</a>
-          <a class="dropdown-item" href="blank.html">Blank Page</a>
-        </div>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/new-visa">
+            <i class="fas fa-fw fa-credit-card"></i>
+            <span>اظافة فيزا</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="new-company">
+            <i class="fas fa-fw fa-address-card"></i>
+            <span>انشاء شركة  جديدة</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="add-slide">
+            <i class="fas fa-fw fa-boxes"></i>
+            <span>اظافة بنر</span></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="add-money">
+            <i class="fas fa-fw fa-donate"></i>
+            <span>تعزيز الرصيد</span></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="completed-orders">
+            <i class="fas fa-fw fa-briefcase"></i>
+            <span>الطلبات المكتملة</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="companies-money">
+            <i class="fas fa-fw fa-file-invoice-dollar"></i>
+            <span>ارصدة العملاء</span></a>
+        </li>
+            <li class="nav-item">
+        <a class="nav-link" href="orders">
+          <i class="fas fa-fw fa-layer-group"></i>
+          <span>الطلبات</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+        <a class="nav-link" href="/logout">
+          <i class="fas fa-fw fa-sign-out-alt"></i>
+          <span>تسجيل الخروج</span></a>
       </li>
     </ul>
